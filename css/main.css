@@ -22,10 +22,12 @@ img {
 }
 
 .grain-left {
+  margin: .3rem;
   float: left;
 }
 
 .grain-right {
+  margin: .3rem;
   float: right;
 }
 
@@ -34,6 +36,7 @@ div {
 }
 
 ul {
+  text-align: center;
   margin: 0;
   padding: 0;
 }
