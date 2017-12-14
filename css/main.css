@@ -53,12 +53,12 @@ ul {
 }
 
 a {
+  display: block;
   text-decoration: none;
   list-style-type: none;
   color: #fff;
   font-size: 1.125rem;
   border: 1px solid #a63f38;
-  display: block;
   text-align: center;
   background-color: #d05c2e;
 }
@@ -68,6 +68,14 @@ nav li {
   width: 33.33%;
 }
 
-nav a:hover {
+nav .home:hover {
+  background-color: #a63f38;
+}
+
+nav .cereals:hover {
+  background-color: #a63f38;
+}
+
+nav .legumes:hover {
   background-color: #a63f38;
 }
