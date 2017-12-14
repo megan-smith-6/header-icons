@@ -30,18 +30,16 @@ h1 {
   margin: .1rem 0;
 }
 
-img {
-  width: 40px;
-}
-
 .grain-left {
   margin: .3rem;
   float: left;
+  width: 40px;
 }
 
 .grain-right {
   margin: .3rem;
   float: right;
+  width: 40px;
 }
 
 div {
@@ -55,22 +53,21 @@ ul {
 }
 
 a {
-  display: inline-block;
   text-decoration: none;
   list-style-type: none;
   color: #fff;
   font-size: 1.125rem;
-  margin: .3rem;
+  border: 1px solid #a63f38;
+  display: block;
+  text-align: center;
+  background-color: #d05c2e;
 }
 
 nav li {
-  display: inline-block;
-  text-align: center;
-  background-color: #d05c2e;
   float: left;
   width: 33.33%;
 }
 
-nav li:hover {
+nav a:hover {
   background-color: #a63f38;
 }
