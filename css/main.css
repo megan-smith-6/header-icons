@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   line-height: 1.5;
 }
 
@@ -8,17 +8,30 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+body {
+  margin: 0;
+}
+
+header {
   display: block;
-  padding: .4rem 0 ;
+  padding: .4rem 0;
   font-size: 2rem;
   margin: 0 0 .7rem;
   color: #fff;
   background-color: #d05c2e;
 }
 
+.nav {
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: .1rem 0;
+}
+
 img {
-  width: 40px
+  width: 40px;
 }
 
 .grain-left {
@@ -54,6 +67,8 @@ nav li {
   display: inline-block;
   text-align: center;
   background-color: #d05c2e;
+  float: left;
+  width: 33.33%;
 }
 
 nav li:hover {
